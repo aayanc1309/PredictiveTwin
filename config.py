@@ -42,6 +42,6 @@ HISTORY_WINDOW       = 100    # readings kept per machine for the dashboard
 
 # ── LLM ────────────────────────────────────────────────────────────────────────
 LLM_PROVIDER   = "gemini"                         # "gemini" | "openai"
-GEMINI_MODEL   = "gemini-2.0-flash"
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "AIzaSyBEs3MyU-hTx4DVHySGqmyjPuIY4RpgccA")
+GEMINI_MODEL   = "gemini-3.1-flash-lite-preview"
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "YOUR_GEMINI_API_KEY")
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "YOUR_OPENAI_API_KEY")
